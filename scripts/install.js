@@ -56,7 +56,7 @@ function test_ninja_compatible(binary_path) {
         console.log('ninja not compatible?', String(e))
         return false;
     }
-    return version === vendor_ninja_version;
+    return false && version === vendor_ninja_version;
 };
 
 
